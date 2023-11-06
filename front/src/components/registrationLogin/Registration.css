@@ -1,0 +1,53 @@
+.Registration-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.Registration-form input {
+  width: 25vw;
+}
+
+.Registration-container {
+  padding-top: 1em;
+}
+
+.Registration-button {
+  display: flex;
+  gap: 10px;
+}
+
+.Registration-button button:hover {
+  background-color: #3a3845;
+  color: #f4efe7;
+}
+
+.Registration-button button {
+  padding: 0.5em 1em;
+  transition: 0.3s;
+  cursor: pointer;
+  background-color: #f4efe7;
+  width: 25vw;
+  border: 0.5px solid grey;
+  color: #3a3845;
+}
+
+h1 {
+  text-align: center;
+}
+
+@media only screen and (max-width: 993px) {
+  .Registration-form input {
+    width: 45vw;
+  }
+  .Registration-button button {
+    width: 45vw;
+  }
+
+  h1 {
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+  }
+}
